@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="index.js"></script>
+    <link rel="icon" type="image/png" href="./pngwing.com.png" />
+    <title>Calculator</title>
+  </head>
+  <body class="calculadora">
+    <div class="container">
+      <h1>Calculator</h1>
+      <p id="result"></p>
+      <table>
+        <tr>
+          <td><button id="btnClear" class="color">C</button></td>
+          <td><button id="btnBack" class="color"><</button></td>
+          <td><button id="btnInsert" value="/" class="color">/</button></td>
+          <td><button id="btnInsert" value="*" class="color">X</button></td>
+        </tr>
+        <tr>
+          <td><button id="btnInsert" value="7">7</button></td>
+          <td><button id="btnInsert" value="8">8</button></td>
+          <td><button id="btnInsert" value="9">9</button></td>
+          <td><button id="btnInsert" value="-" class="color">-</button></td>
+        </tr>
+        <tr>
+          <td><button id="btnInsert" value="4">4</button></td>
+          <td><button id="btnInsert" value="5">5</button></td>
+          <td><button id="btnInsert" value="6">6</button></td>
+          <td><button id="btnInsert" value="+" class="color">+</button></td>
+        </tr>
+        <tr>
+          <td><button id="btnInsert" value="1">1</button></td>
+          <td><button id="btnInsert" value="2">2</button></td>
+          <td><button id="btnInsert" value="3">3</button></td>
+          <td rowspan="2">
+            <button id="btnCalculate" class="equal">=</button>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <button id="btnInsert" value="0" class="zero">0</button>
+          </td>
+          <td><button class="color" id="btnInsert" value=".">.</button></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
